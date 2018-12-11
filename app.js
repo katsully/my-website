@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $('#myButton').click(function() {
+    console.log("hi");
     var name = $('.first').val() + " " + $('.last');
     var email = $('.email').val();
     var message = $('textarea').val();

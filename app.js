@@ -1,4 +1,4 @@
-$(documnet).ready(function(){
+$(document).ready(function(){
 
   $('#myButton').click(function() {
     var name = $('.first').val() + " " + $('.last');

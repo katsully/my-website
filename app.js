@@ -10,11 +10,12 @@ $(document).ready(function(){
       data: {
         'key': '0t-klM9r1Do4mNPmQBs3Cw',
         'message': {
-          'from_email': 'kmsullivan012@gmail.com',
+          'from_email': email,
+          'from_name': name,
           'to': [
               {
-                'email': email,
-                'name': name,
+                'email': 'kmsullivan012@gmail.com',
+                'name': 'Kat Sullivan',
                 'type': 'to'
               }
             ],
@@ -23,6 +24,8 @@ $(document).ready(function(){
           'html': message
         }
       }
+    }).done(function(response) {
+      console.log(response); 
     });
   });
 });

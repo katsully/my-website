@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+#myDropdown {
+	background-color: rgba(125, 125, 125, .5);
+}
+
+.content {
+	margin-left: 6%;
+}
+
+h3, p {
+	margin-right: 6%;
+	font-weight: lighter;
+	margin-bottom: 0;
+}
+
+img {
+	width: 88%;
+}
+
+a.press:hover {
+	color: rgba(125, 125, 125, .5);
+}

@@ -38,12 +38,11 @@ h1 {
 
 #site {
 	opacity: 0;
-	-webkit-animation-name: fadeinSite;
-	-webkit-animation-duration: 5s;
-	-webkit-animation-delay: 3s;
-	-webkit-animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-	transition: opacity 1s ease;
+	-webkit-animation: fadeinSite 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinSite 5s; /* Firefox < 16 */
+        -ms-animation: fadeinSite 5s; /* Internet Explorer */
+         -o-animation: fadeinSite 5s; /* Opera < 12.1 */
+            animation: fadeinSite 5s;
 }
 
 a {
@@ -76,17 +75,17 @@ a:hover {
 
 @keyframes fadeinSite {
     from { opacity: 0; }
-    to   { opacity: .6; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadeinSite {
     from { opacity: 0; }
-    to   { opacity: .6; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadeinSite {
     from { opacity: 0; }
-    to   { opacity: .6; }
+    to   { opacity: 1; }
 }

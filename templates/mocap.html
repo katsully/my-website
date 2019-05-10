@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Kat Sullivan</title>
+	<link rel="stylesheet" type="text/css" href="../home.css">
+	<link rel="stylesheet" type="text/css" href="../about.css">
+	<link rel="stylesheet" type="text/css" href="../mocap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+	<div class="row">
+		<h2 id="projects" onclick="myFunction()" class="dropbtn column">Projects</h2>
+  		<h2 id="mocap" class="column"><a href="home.html">Home</a></h2>
+		<h2 id="about" class="column"><a href="home.html">About</a></h2>
+	</div>
+	<div id="myDropdown" class="dropdown-content">
+    		<a href="aether.html">Aether</a>
+    		<a href="torn.html">Torn</a>
+    		<a href="ltc.html">Liable to Change</a>
+    		<a href="blooming.html">Blooming</a>
+    		<a href="terror.html">Near Terror</a>
+  	</div>
+<h2 class="name">Motion Capture</h2>
+
+<h3>I work as an independent Motion Capture Director, Movement Coordinator, Technican, and perform data cleaning services. I teach two Motion Capture courses at NYU, and have taught workshops at <a href="https://ccam.yale.edu/event/intensive-motion-capture-workshop-kat-sullivan" target="_blank" class="mylinks">Yale</a> and <a href="https://motioncapturemasterclass.splashthat.com/" target="_blank" class="mylinks">RLab</a>. Day rates can be provided by contacting me at katsullivan@nyu.edu. Below you can find a few selected works.</h3>
+
+<h2 class="title">Netflix: Bird Box</h2>
+<h4>For the release of Netflix's most watched original movie Bird Box, VolvoxLabs created an eerie LED box for The Shops at Columbus Circle.</h4>  
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/324647902" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<h4>Role: Motion Capture Director, Data Cleaning, Retargeting</h4>
+
+
+<h2 class="title">The Truth Will Set You Free</h2>
+<h4>A stunning projection mapped projection by Light Harvest Studio featuring performances from former Pilobolus dancers.</h4>
+<iframe id ="vid1" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flumafestival%2Fvideos%2F208687330085384%2F&show_text=0&width=380" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<h4>Role: Movement Coordinator, Motion Capture Technican</h4>
+
+<h2 class="title"><a href="https://streetsmartsvr.com/" target="_blank" class="mylinks">StreetSmarts</a></h2>
+<h4>A police VR simulation tool designed to teach and educate law enforcements about how to handle a variety of situations while on patrol. </h4>
+<img src="../images/Making+of+SSVR.gif" >
+<h4>Role: Movement Coordinator, Motion Capture Technican, Data Cleaning</h4>
+
+<h2 class="title">Pharos</h2>
+<h4>For Childish's Gambino's performance in New Zealand, he wanted to create a completely new experience the audience could experience together inside a 3000 person dome. 2N served as the creative team.</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DTAW0i7NSoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Role: Motion Capture Technican, Data Cleaning</h4>
+
+<h2 class="title">Cuervo Dance with Dead</h2>
+<h4>A live motion capture pop up for Jose Cuervo developed by Sensorium Works. The experience included live motion capture choreography and VR installations.</h4>
+<img src="../images/Cuervo.jpg" width="960px" height="540px">
+<h4>Role: Motion Capture Technican, Data Cleaning, Operator/Director of Inertia-Based Suits</h4>
+
+<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		  console.log("here");
+		}
+
+		document.getElementById('vid1').addEventListener('loadedmetadata', function() {
+  				this.currentTime = 2;
+			}, false);
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.title, h3, h4 {
+	margin-right: 6%;
+	margin-left: 6%;
+}
+
+.title {
+	padding-left: 0;
+}
+
+img {
+	display: block;
+	margin-left: 6%;
+	float: none;
+}
+
+iframe {
+	display: block;
+	margin-left: 6%;
+}
+
+.mylinks {
+	color: #bf94e4;
+}

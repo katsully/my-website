@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kat Sullivan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../app.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+	<div class="parallax">
+		<div class="row">
+			<h2 id="projects" onclick="myFunction()" class="dropbtn column">Projects</h2>
+	  		<h2 id="mocap" class="column"><a href="mocap.html">Motion Capture</a></h2>
+			<h2 id="about" class="column"><a href="about.html">About</a></h2>
+		</div>
+		<div id="myDropdown" class="dropdown-content">
+	    		<a href="aether.html">Aether</a>
+	    		<a href="torn.html">Torn</a>
+	    		<a href="ltc.html">Liable to Change</a>
+	    		<a href="blooming.html">Blooming</a>
+	    		<a href="terror.html">Near Terror</a>
+	  	</div>
+		<h1 class="main" id="name">Kat Sullivan</h1>
+	</div>
+
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		  console.log("here");
+		}
+
+	</script>
+</body>
+</html>
+
+
+
+

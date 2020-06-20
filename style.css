@@ -45,7 +45,7 @@ h1 {
   animation: fadein 5s;
 }
 
-a {
+#splash_link {
 	color: #ecf0f1;
 	text-decoration: none;
 	padding: 10px;

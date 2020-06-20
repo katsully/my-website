@@ -27,6 +27,7 @@ h1 {
 }
 
 #name {
+  color: white;
 	font-size: 100px;
 	margin-bottom: 5px;
 	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
